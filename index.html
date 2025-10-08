@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">  
+<head>  
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />  
+  <title>d1ox-links</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">  
+  <style>  
+    *{margin:0;padding:0;box-sizing:border-box}  
+    body{  
+      font-family:'Oswald',sans-serif;  
+      background: #000000; /* solid black */  
+      color: #8B0000; /* dark red text */  
+      overflow-y:auto;  
+    }
+    .bg{
+      position:fixed;inset:0;z-index:-1;
+      background:#000000; /* black background */
+    }
+    header{text-align:center;padding:80px 20px 20px}
+    header h1{font-size:32px;font-weight:700;letter-spacing:2px}
+    .links{display:flex;flex-direction:column;align-items:center;gap:20px;padding:30px}
+    .link{
+      width:90%;max-width:500px;
+      border:1px solid rgba(255,255,255,0.1);
+      background:rgba(255,255,255,0.05);
+      padding:16px 22px;
+      border-radius:12px;
+      text-align:center;
+      text-decoration:none;
+      color:#8B0000; /* dark red links */
+      font-size:20px;
+      display:flex;align-items:center;justify-content:center;gap:10px;
+      transition:.3s;
+    }
+    .link:hover{
+      background:rgba(255,255,255,0.1);
+      transform:translateY(-5px);
+      box-shadow:0 0 20px rgba(122,252,255,0.2);
+    }
+    .icon{
+      width:26px;height:26px;object-fit:contain;filter:brightness(0) invert(1);
+    }
+    footer{
+      text-align:center;
+      padding:40px 0;
+      font-size:14px;
+      opacity:.6;
+    }
+    footer .maker {
+      display:block;
+      font-size:12px;
+      margin-top:6px;
+      opacity:0.5;
+      content: "Made by d1ox";
+    }
+  </style>
+</head>  
+<body>  
+  <div class="bg"></div>  
+  <header>  
+    <h1>D1OX</h1>  
+    <!-- Quote removed -->  
+  </header>  
+  <section class="links">  
+    <a class="link" href="https://www.tiktok.com/@urfavvlie.69?_t=ZS-90NCjvt1QwP&_r=1" target="_blank">  
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok">TikTok — @urfavvlie.69  
+    </a>  
+    <a class="link" href="https://snapchat.com/t/vChuzvo1" target="_blank">  
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/snapchat.svg" alt="Snapchat">Snapchat — vChuzvo1  
+    </a>  
+    <a class="link" href="https://www.instagram.com/yousf.farsat?igsh=MXd5NDRocG9meTdseA%3D%3D&utm_source=qr" target="_blank">  
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">Instagram — @yousf.farsat  
+    </a>  
+  </section>  
+  <footer>
+    © 2025 d1ox. All rights reserved.
+    <span class="maker">Crafted by d1ox for Yousf</span>
+  </footer>  
+</body>  
+</html>
